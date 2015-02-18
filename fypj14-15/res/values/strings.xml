@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Assist</string>
+    <string name="hello_world">Hello world!</string>
+    
+    <!-- App Actions -->
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search name</string>
+    <string name="action_sortlist">Sort ascend/descend</string>
+    <string name="action_edit">Edit</string>
+    <string name="action_save">Save</string>
+    <string name="action_accept">Accept</string>
+    
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="drw_menuOption1">Settings</string>
+    <string name="drw_menuOption2">Help and Support</string>
+    
+    <!-- Misc events -->
+    <string name="search_hint">Type your search</string>
+    
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="nav_drawer_items">
+        <item>Display All</item>
+        <item >Not Observed</item>
+        <item >Paused</item>
+        <item >Completed</item>
+    </string-array>
+    
+    <!-- Nav Drawer List Item Icons -->
+    <!-- Keep them in order as the titles are in -->
+	<array name="nav_drawer_icons">
+	    <item>@drawable/ic_action_home</item>
+	    <item>@drawable/blue_icon</item>
+	    <item>@drawable/red_icon</item>
+	    <item>@drawable/green_icon</item>
+	</array>
+	
+	<!-- Form input -->
+	<string name="child_name">Name:</string>
+    <string name="child_id">ID:</string>
+    <string name="pri_diagnosis">Primary Diagnosis</string>
+    <string name="sec_diagnosis">Secondary Diagnosis</string>
+    <string name="remarks">Remarks</string>
+    <string name="inspector">Inspector</string>
+    <string name="venue">Venue</string>
+    <string name="activity">Activity</string>
+    <string name="no_adults">No. of Adults:</string>
+    <string name="no_children">No. of Children:</string>
+    <string name="add_btn">Add</string>
+    <string name="observation_session">Observation Session:</string>
+    <string name="content_name">Alex</string>
+    <string name="content_id">S1234567A</string>
+    <string name="content_pri">~Testing primary diagnosis</string>
+    <string name="content_sec">~Testing Secondary Diagnosis~</string>
+    <string name="content_remarks">~Testing Remarks~</string>
+    <string name="content_coder">Test Coder</string>
+    <string name="content_venue">Yio Chu Kang</string>
+    <string name="content_activity">Test Activity</string>
+    <string name="content_adults">2</string>
+    <string name="content_children">10</string>
+    <string name="start_btn">Begin</string>
+	
+	
+	<!-- Content Description -->
+    <string name="desc_list_item_icon">Item Icon</string>
+    
+    <!-- Timer Headings -->
+    <string name="heading1">Engagement</string>
+    <string name="heading2">Physical Prompts</string>
+    <string name="heading3">Conditions</string>
+    
+    <!-- Timer Options -->    
+    <string name="button1">Start</string>
+    <string name="button2">Reset</string>    
+    <string name="timeStart">0:00</string>
+    
+    <string name="actEngage">Active Engagement</string>
+    <string name="actNonEngage">Active Non-engagement</string>
+    <string name="pasvEngage">Passive Engagement</string>
+    <string name="pasvNonEngage">Passive Non-engagement</string>
+    <string name="flag">Flag</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="time_limit">Time Limit: </string>
+    <string name="interact1">Adults</string>
+    <string name="interact2">Peers</string>
+    <string name="interact3">Materials</string>
+    <string name="interact4">None/Other</string>
+    
+    <!-- Prompts -->
+    <string-array name="questions">
+        <item>How do you rate this child\'s overall engagement?</item>
+        <item>How often did you observe this child\'s stereotypic and repetitive behaviours?</item>
+        <item>How do you rate the <u>frequency</u> of interaction between the child and <u>adults</u>?</item>
+        <item>How do you rate the <u>quality</u> of interaction between the child and <u>adults</u>?</item>
+        <item>How do you rate the <u>frequency</u> of interaction between the child and <u>peers</u>?</item>
+        <item>How do you rate the <u>quality</u> of interaction between the child and <u>peers</u>?</item>
+    </string-array>
+    
+    <!-- Grading -->
+    <string-array name="ratings">
+        <item>- Select -</item>
+        <item>Non engaged</item>
+    	<item>Poorly engaged</item>
+    	<item>Engaged</item>
+    	<item>Highly engaged</item>
+    	<item>Very highly engaged</item>
+    </string-array>
+    <string name="observation_status">  Not Observed</string>
+    <string name="gender">Gender</string>
+    <string name="submit">Submit</string>
+    <string name="form_name">Add Child Info</string>
+    <string name="session_name">Session</string>
+    
+    <!-- AlertDialog -->
+    <string name="alertmsg_title">Confirm Action</string>
+    <string name="alertmsg_leave">Are you sure you want to leave?</string>
+    <string name="alertmsg_submit">Are you sure you want to submit the application?</string>
+    <string name="alertmsg_accept">OK</string>
+    <string name="alertmsg_revert">Cancel</string>
+    <string-array name="saveOption">
+        <item>Don\'t save the session</item>
+        <item>Save current session</item>
+    </string-array>
+    
+</resources>

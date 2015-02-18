@@ -1,0 +1,131 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+	
+    <TextView android:id="@+id/sn_counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:textSize="16sp" />
+    
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sn_counter"
+        android:layout_marginLeft="20dp"
+        android:layout_gravity="center"
+        android:columnCount="1"
+        android:rowCount="3">
+        
+        <TextView android:id="@+id/question"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_column="0"
+	        android:layout_row="0"
+	        android:textSize="16sp" />
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:gravity="center"
+            android:layout_column="0"
+            android:layout_row="1" >
+            
+            <TextView android:id="@+id/rmklabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Remark: "/>
+            
+            <Button android:id="@+id/toggle_rmk"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:layout_marginLeft="10dp"
+			    android:textSize="14sp" />
+            
+        </LinearLayout>
+        
+        <LinearLayout android:id="@+id/child_item"
+            android:background="@color/list_background"
+            android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginTop="5dp"
+	        android:orientation="vertical"
+	        android:layout_column="0"
+	        android:layout_row="2"
+	        android:padding="5dp">
+            
+            <LinearLayout android:id="@+id/label_list"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:gravity="right">
+		        
+		        <TextView
+		            android:id="@+id/label_dft"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight=".165"
+		            android:gravity="center"
+		            android:textSize="12sp"
+		            android:text="#" />
+		        
+		        <TextView
+		            android:id="@+id/label1"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_weight=".167"
+		            android:gravity="center"
+		            android:textSize="12sp"
+		            android:text="1" />
+		
+			    <TextView
+			        android:id="@+id/label2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight=".167"
+			        android:gravity="center"
+			        android:textSize="12sp"
+			        android:text="2"/>
+		
+			    <TextView
+			        android:id="@+id/label3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight=".167"
+			        android:gravity="center"
+			        android:textSize="12sp"
+			        android:text="3"/>
+		
+			    <TextView
+			        android:id="@+id/label4"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight=".167"
+			        android:gravity="center"
+			        android:textSize="12sp"
+			        android:text="4"/>
+		
+			    <TextView
+			        android:id="@+id/label5"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight=".167"
+			        android:gravity="center"
+			        android:textSize="12sp"
+			        android:text="5"/>
+		        
+		    </LinearLayout>
+		    
+		    <SeekBar android:id="@+id/seekBar1"
+				    android:layout_width="match_parent"
+				    android:layout_height="wrap_content"
+				    android:gravity="right" 
+				    android:max="5" />
+        </LinearLayout>
+        
+    </GridLayout>
+	
+</RelativeLayout>

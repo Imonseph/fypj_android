@@ -1,0 +1,27 @@
+<resources>
+
+	<!-- Default screen margins, per the Android Design guidelines. -->
+    <!-- Activity Margins-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="activity_margin_double">32dp</dimen>
+    <dimen name="activity_margin_triple">48dp</dimen>
+    <dimen name="activity_margin_quad">64dp</dimen>
+    <dimen name="scroll_textView_margin">20dp</dimen>
+
+
+    <!-- Linear Layouts Margins-->
+    <dimen name="linear_layout_horizontal_margin">16dp</dimen>
+    <dimen name="linear_layout_vertical_margin">16dp</dimen>
+    <dimen name="linear_layout_top_first_margin">16dp</dimen>
+    <dimen name="linear_layout_top_margin">4dp</dimen>
+    <dimen name="linear_layout_bottom_margin">4dp</dimen>
+    <dimen name="linear_layout_bottom_last_margin">16dp</dimen>
+    <dimen name="linear_layout_margin">16dp</dimen>
+
+    <!-- Drawer widths-->
+    <dimen name="left_drawer_width">280dp</dimen>
+    <dimen name="right_drawer_width">240dp</dimen>
+    
+</resources>
