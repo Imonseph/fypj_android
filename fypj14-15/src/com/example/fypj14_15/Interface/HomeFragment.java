@@ -77,9 +77,8 @@ public class HomeFragment extends Fragment {
 	                pos = 0;
 	                Log.d("Pos # 0", "Running");
 	            }
-	            
-	            // this method is called when addNew_Btn is clicked
-				Intent intent = new Intent(getActivity(), SessionActivity.class);
+	            // transferring control to another activity from this fragment activity
+	            Intent intent = new Intent(getActivity(), SessionActivity.class);
 				intent.putExtra("profileid", profileID);
 				intent.putExtra("status", status);
 				// Intent to include params: COntext and target class activity redirected
@@ -90,6 +89,7 @@ public class HomeFragment extends Fragment {
 		// Referenced from: http://stackoverflow.com/questions/2217753/changing-background-color-of-listview-items-on-android
 		
 		ImageButton imgBtn = (ImageButton) rootView.findViewById(R.id.addNew_Btn);
+		// this method is called when addNew_Btn is clicked
 		imgBtn.setOnClickListener(new View.OnClickListener(){
 			@Override
 			public void onClick(View view) {
